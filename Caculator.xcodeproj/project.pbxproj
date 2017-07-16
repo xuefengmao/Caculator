@@ -14,6 +14,7 @@
 		5AF6161D1F1A530200574CEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF6161B1F1A530200574CEC /* LaunchScreen.storyboard */; };
 		5AF616281F1A530200574CEC /* CaculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF616271F1A530200574CEC /* CaculatorTests.swift */; };
 		5AF616331F1A530200574CEC /* CaculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF616321F1A530200574CEC /* CaculatorUITests.swift */; };
+		5AF616411F1AEB7300574CEC /* CaculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF616401F1AEB7300574CEC /* CaculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5AF6162E1F1A530200574CEC /* CaculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AF616321F1A530200574CEC /* CaculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaculatorUITests.swift; sourceTree = "<group>"; };
 		5AF616341F1A530200574CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AF616401F1AEB7300574CEC /* CaculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				5AF616121F1A530200574CEC /* AppDelegate.swift */,
-				5AF616141F1A530200574CEC /* ViewController.swift */,
-				5AF616161F1A530200574CEC /* Main.storyboard */,
 				5AF616191F1A530200574CEC /* Assets.xcassets */,
 				5AF6161B1F1A530200574CEC /* LaunchScreen.storyboard */,
 				5AF6161E1F1A530200574CEC /* Info.plist */,
+				5AF616141F1A530200574CEC /* ViewController.swift */,
+				5AF616161F1A530200574CEC /* Main.storyboard */,
+				5AF616401F1AEB7300574CEC /* CaculatorBrain.swift */,
 			);
 			path = Caculator;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AF616411F1AEB7300574CEC /* CaculatorBrain.swift in Sources */,
 				5AF616151F1A530200574CEC /* ViewController.swift in Sources */,
 				5AF616131F1A530200574CEC /* AppDelegate.swift in Sources */,
 			);
